@@ -8,6 +8,9 @@
     "name": "tokyonight"
   },
   "keybinds": {
+    "app.exit": "none",
+    "prompt.clear": "none",
+    "session.interrupt": "escape,ctrl+c",
     "session.tab.next": "alt+shift+l",
     "session.tab.previous": "alt+shift+h",
     "session.child.first": "down,alt+j",

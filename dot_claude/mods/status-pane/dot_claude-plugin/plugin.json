@@ -1,0 +1,74 @@
+{
+  "name": "status-pane",
+  "version": "0.18.0",
+  "description": "Right-docked pane in rounded boxes: model and effort, directory and git counts, session, subagents by model family, usage limits",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "fg": {
+      "type": "string",
+      "title": "Text",
+      "description": "Values and the main text.",
+      "default": "text"
+    },
+    "blue": {
+      "type": "string",
+      "title": "Directory",
+      "description": "The directory box, and ahead/behind counts in the git box.",
+      "default": "blue_FOR_SUBAGENTS_ONLY"
+    },
+    "cyan": {
+      "type": "string",
+      "title": "Untracked",
+      "description": "Untracked file counts in the git box.",
+      "default": "cyan_FOR_SUBAGENTS_ONLY"
+    },
+    "mag": {
+      "type": "string",
+      "title": "Branch",
+      "description": "The branch name in the git box.",
+      "default": "purple_FOR_SUBAGENTS_ONLY"
+    },
+    "mid": {
+      "type": "string",
+      "title": "Labels",
+      "description": "Row labels and secondary text.",
+      "default": "inactive"
+    },
+    "dim": {
+      "type": "string",
+      "title": "Dim",
+      "description": "Hints and zero values.",
+      "default": "subtle"
+    },
+    "sub": {
+      "type": "string",
+      "title": "Borders",
+      "description": "Box borders and empty meter track.",
+      "default": "promptBorder"
+    },
+    "green": {
+      "type": "string",
+      "title": "Good",
+      "description": "Staged counts, healthy state, and meters below 50%.",
+      "default": "success"
+    },
+    "yellow": {
+      "type": "string",
+      "title": "Warning",
+      "description": "Modified counts, and meters from 50%.",
+      "default": "warning"
+    },
+    "red": {
+      "type": "string",
+      "title": "Error",
+      "description": "Failures, and meters from 75%.",
+      "default": "error"
+    },
+    "claude": {
+      "type": "string",
+      "title": "Model",
+      "description": "The model name.",
+      "default": "claude"
+    }
+  }
+}

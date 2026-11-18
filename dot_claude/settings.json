@@ -1,0 +1,68 @@
+{
+  "env": {
+    "CLAUDE_CODE_PLUGIN_DIRS": "~/.claude/mods/status-pane"
+  },
+  "permissions": {
+    "allow": [
+      "mcp__matlab__detect_matlab_toolboxes",
+      "mcp__matlab__check_matlab_code"
+    ]
+  },
+  "model": "opus[1m]",
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "rtk hook claude"
+          }
+        ]
+      }
+    ]
+  },
+  "worktree": {
+    "bgIsolation": "none"
+  },
+  "enabledPlugins": {
+    "clangd-lsp@claude-plugins-official": true,
+    "rust-analyzer-lsp@claude-plugins-official": true,
+    "lua-lsp@claude-plugins-official": true,
+    "mehranvz@mehranvz": true,
+    "frontend-design@anthropic-plugin-directory": true
+  },
+  "extraKnownMarketplaces": {
+    "mehranvz": {
+      "source": {
+        "source": "github",
+        "repo": "MehranVZ/agentic-ai-skills"
+      },
+      "autoUpdate": true
+    }
+  },
+  "feedbackDrafts": "off",
+  "effortLevel": "medium",
+  "modelSettings": {
+    "claude-fable-5-1": {
+      "effortLevel": "high"
+    },
+    "claude-opus-5-5": {
+      "effortLevel": "medium",
+      "autoCompactWindow": 500000
+    },
+    "claude-sonnet-5-5": {
+      "effortLevel": "medium",
+      "autoCompactWindow": 500000
+    }
+  },
+  "tui": "fullscreen",
+  "maxProseWidth": 100,
+  "voice": {
+    "enabled": true,
+    "mode": "hold"
+  },
+  "theme": "custom:tokyonight-custom",
+  "inputNeededNotifEnabled": true,
+  "agentPushNotifEnabled": true
+}

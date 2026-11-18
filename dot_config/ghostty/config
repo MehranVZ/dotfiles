@@ -1,0 +1,30 @@
+# Config files
+config-file=keybind
+
+# Font
+font-family = Iosevka Term
+font-size = 14
+
+# Clipboard: copy selection to both primary and system clipboard
+copy-on-select = clipboard
+
+# Cursor
+shell-integration-features = no-cursor
+cursor-style = block
+
+# Theme
+theme = tokyonight-custom
+
+# Window
+window-decoration = false
+window-show-tab-bar = never
+maximize = true
+window-padding-balance = true
+window-padding-x = 5
+window-padding-y = 5
+window-vsync
+
+# Command finish notifications
+notify-on-command-finish = unfocused
+notify-on-command-finish-after = 10s
+notify-on-command-finish-action = no-bell,notify

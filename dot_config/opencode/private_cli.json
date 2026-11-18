@@ -1,0 +1,88 @@
+{
+  "$schema": "https://opencode.ai/v2/cli.json",
+  "plugins": [
+    "-opencode.prompt.footer",
+    "github:MehranVZB/opencode-footer#main"
+  ],
+  "theme": {
+    "name": "tokyonight"
+  },
+  "keybinds": {
+    "session.tab.next": "alt+shift+l",
+    "session.tab.previous": "alt+shift+h",
+    "session.child.first": "down,alt+j",
+    "session.child.next": "right,alt+l",
+    "session.child.previous": "left,alt+h",
+    "session.parent": "up,alt+k",
+    "composer.subagent.down": "down,alt+j",
+    "composer.subagent.up": "up,alt+k",
+    "composer.shell.down": "down,alt+j",
+    "composer.shell.up": "up,alt+k",
+    "composer.terminal.down": "down,alt+j",
+    "composer.terminal.up": "up,alt+k",
+    "dialog.select.next": "down,ctrl+n,alt+j",
+    "dialog.select.prev": "up,ctrl+p,alt+k",
+    "prompt.autocomplete.next": "down,ctrl+n,alt+j",
+    "prompt.autocomplete.prev": "up,ctrl+p,alt+k",
+    "diff.down": "j,down,alt+j",
+    "diff.up": "k,up,alt+k",
+    "session.tab.select.1": "alt+1,<leader>1,ctrl+1",
+    "session.tab.select.2": "alt+2,<leader>2,ctrl+2",
+    "session.tab.select.3": "alt+3,<leader>3,ctrl+3",
+    "session.tab.select.4": "alt+4,<leader>4,ctrl+4",
+    "session.tab.select.5": "alt+5,<leader>5,ctrl+5",
+    "session.tab.select.6": "alt+6,<leader>6,ctrl+6",
+    "session.tab.select.7": "alt+7,<leader>7,ctrl+7",
+    "session.tab.select.8": "alt+8,<leader>8,ctrl+8",
+    "session.tab.select.9": "alt+9,<leader>9,ctrl+9",
+    "session.new": "alt+n",
+    "session.tab.close": "alt+d",
+    "session.tab.reopen": "alt+shift+n",
+    "session.list": "alt+shift+s",
+    "session.rename": "alt+r",
+    "command.palette.show": "alt+p",
+    "prompt.history.previous": "up,ctrl+p,alt+k",
+    "prompt.history.next": "down,ctrl+n,alt+j",
+    "input.move.left": "left,ctrl+b,alt+h",
+    "input.move.down": "down,alt+j",
+    "input.move.up": "up,alt+k",
+    "input.move.right": "right,ctrl+f,alt+l",
+    "input.delete.word.forward": "alt+delete,ctrl+delete",
+    "session.half.page.up": "ctrl+u",
+    "session.half.page.down": "ctrl+d",
+    "input.delete.to.line.start": "none",
+    "input.delete": "none"
+  },
+  "diffs": {
+    "wrap": "word"
+  },
+  "session": {
+    "sidebar": "hide",
+    "scrollbar": true,
+    "thinking": "show",
+    "permissions": "autoaccept",
+    "grouping": "none",
+    "markdown": "rendered",
+    "verbosity": "high",
+    "image_preview": true
+  },
+  "animations": true,
+  "tabs": {
+    "mode": "on",
+    "layout": "vertical",
+    "indicators": "status"
+  },
+  "terminal": {
+    "copy": "select"
+  },
+  "prompt": {
+    "paste": "compact",
+    "image_preview": true
+  },
+  "attention": {
+    "notifications": true
+  },
+  "debug": {
+    "devtools": false
+  }
+}
